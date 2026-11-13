@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e9">
+  <meta name="description" content="Un pequeño universo de recuerdos, cartas y planes para nosotros.">
+  <title>Para ti — Nuestra historia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio"><span class="brand-mark">s<span>♥</span></span><span>ARCHIVO<br><b>DE NOSOTROS</b></span></a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#galeria">Momentos</a><a href="#capitulos">Historia</a><a href="#carta">Carta</a><a href="#planes">Un plan</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">☼</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-image" role="img" aria-label="Una foto especial de ustedes; reemplaza media/portada.jpg"></div>
+      <div class="hero-grain"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">UN PEQUEÑO UNIVERSO HECHO PARA TI <span>✳</span></p>
+        <p class="hero-kicker">SANTIAGO <i>&</i> MI PERSONA FAVORITA</p>
+        <h1>Hay lugares<br>que <em>se sienten</em><br>como tú.</h1>
+        <p class="hero-description">Esta página es uno de ellos.<br>Entra, todavía nos quedan recuerdos por abrir.</p>
+        <a class="button button-light" href="#bienvenida">Explorar nuestra historia <span>↘</span></a>
+      </div>
+      <div class="hero-note"><span>LAT. 00°00' N</span><span>HECHO CON MUCHO AMOR · 2026</span></div>
+      <div class="hero-side-note">PARA LEER DESPACITO</div>
+    </section>
+
+    <section class="welcome section-shell" id="bienvenida">
+      <div class="section-index">01 <span>·</span> EL PRINCIPIO</div>
+      <div class="welcome-copy reveal"><p class="eyebrow">HOLA, AMOR</p><h2>Te hice un lugar<br>al que puedas <em>volver.</em></h2><p>No cabe en una caja. No necesita envoltura. Solo un ratito, tus ojos y todos esos recuerdos que también son tuyos.</p><a class="text-link" href="#galeria">Empezamos aquí <span>↘</span></a></div>
+      <div class="counter-card reveal"><span class="counter-spark">✳</span><span class="eyebrow">DESDE QUE EMPEZÓ LO NUESTRO</span><strong id="days-count">—</strong><span class="counter-label">días construyendo nuestra historia</span><span class="counter-date">10 JUN 2024 <i>—</i> HOY</span></div>
+      <div class="welcome-stamp" aria-hidden="true">S<br><span>♥</span></div>
+    </section>
+
+    <section class="gallery-section section-shell" id="galeria">
+      <div class="section-index">02 <span>·</span> PRUEBAS DE QUE FUIMOS FELICES</div>
+      <div class="section-heading reveal"><div><p class="eyebrow">MUSEO DE MOMENTOS</p><h2>La vida en <em>fotogramas.</em></h2></div><p>Pequeñas escenas de una película que quiero seguir viendo contigo.</p></div>
+      <div class="photo-grid media-grid" id="media-gallery" aria-live="polite"></div>
+      <p class="gallery-footnote"><span>↗</span> <strong id="media-count">34 fotos · 3 videos</strong> · Toca una foto para ampliarla o reproduce un video aquí mismo.</p>
+    </section>
+
+    <section class="chapters section-shell" id="capitulos">
+      <div class="section-index">03 <span>·</span> CAPÍTULOS QUE NOS TRAJERON AQUÍ</div>
+      <div class="section-heading reveal"><div><p class="eyebrow">LÍNEA DE TIEMPO</p><h2>Todo empezó con <em>un hola.</em></h2></div><p>No son solo fechas. Son pequeños antes y después de mi vida.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-date">10 JUN<br>2024</span><span class="timeline-node">01</span><div><p class="eyebrow">EL PRIMER CAPÍTULO</p><h3>El día que nos conocimos</h3><p>Quién iba a pensar que una conversación cualquiera se convertiría en mi historia favorita. Aquí va el recuerdo de ese primer día…</p><span class="timeline-tag">EL COMIENZO DE TODO</span></div></article>
+        <article class="timeline-item reveal"><span class="timeline-date">NUESTRA<br>PRIMERA CITA</span><span class="timeline-node">02</span><div><p class="eyebrow">MARIPOSAS, POR FAVOR</p><h3>La primera vez que salimos</h3><p>Yo intentando parecer tranquilo. Mi corazón claramente haciendo otra cosa. Completa aquí dónde fueron y qué hicieron.</p><span class="timeline-tag">UN LUGAR PARA VOLVER</span></div></article>
+        <article class="timeline-item reveal"><span class="timeline-date">NUESTRA<br>PRIMERA PELI</span><span class="timeline-node">03</span><div><p class="eyebrow">LUZ, CÁMARA, NOSOTROS</p><h3>Una película y dos protagonistas</h3><p>La película quizá ya se me olvidó. Estar ahí contigo, jamás.</p><span class="timeline-tag">CINE · PALOMITAS · TÚ</span></div></article>
+        <article class="timeline-item reveal"><span class="timeline-date">POR<br>ESCRIBIR</span><span class="timeline-node">04</span><div><p class="eyebrow">PRÓXIMO EPISODIO</p><h3>Nuestro siguiente gran recuerdo</h3><p>Este espacio queda reservado para todas las cosas bonitas que todavía nos esperan.</p><span class="timeline-tag">CONTINUARÁ…</span></div></article>
+      </div>
+    </section>
+
+    <section class="interlude">
+      <div class="interlude-photo" role="img" aria-label="Espacio para otra foto especial; reemplaza media/polaroid.jpg"></div>
+      <div class="polaroid"><div class="polaroid-photo" role="img" aria-label="Foto instantánea; reemplaza media/polaroid.jpg"></div><p>mi lugar favorito<br><em>siempre será a tu lado.</em></p><span>— S.</span></div>
+      <p class="interlude-quote">“Qué suerte la mía,<br><em>coincidir contigo.</em>”</p>
+    </section>
+
+    <section class="letter-section section-shell" id="carta">
+      <div class="section-index">04 <span>·</span> UNA CARTA QUE NO CABÍA EN UN MENSAJE</div>
+      <div class="letter-layout"><div class="letter-aside reveal"><p class="eyebrow">GUÁRDALA CERQUITA</p><h2>De lo más profundo de mí,<br><em>para tus ojos.</em> &lt;3</h2><p>Sin prisa. Esta carta es tuya.</p><span class="letter-aside-heart">♡</span></div>
+        <article class="letter-card reveal">
+          <p>Si estás leyendo esto es porque quería regalarte algo un poco diferente; algo que no se guarda en una caja, sino en el corazón. Todavía me acuerdo del día que empezamos esta historia. ¿Quién me iba a decir que ese momento se convertiría en uno de los más importantes de mi vida? Desde entonces has llenado mi vida de momentos de risas, calma y recuerdos que nunca quiero olvidar.</p>
+          <p>Hemos vivido muchos momentos bonitos, pero también otros que nos han hecho mucho más fuertes. Y si algo he aprendido de nosotros es que, pase lo que pase, siempre merece la pena seguir caminando de tu mano.</p>
+          <p>Gracias por estar cuando más te necesito, por creer en mí incluso cuando yo dudaba y por hacer que cualquier lugar sea mi lugar favorito si tú estás allí.</p>
+          <p>No sé qué nos depara el futuro, pero sí sé una cosa: quiero seguir creando recuerdos contigo, uno detrás de otro.</p>
+          <p>Te amo muchísimo y ojalá dentro de muchos años podamos volver a leer esta carta y sonreír al recordar todo lo que hemos vivido.</p>
+          <p class="letter-signoff">Con todo mi amor,<br><strong>Santiago &lt;3</strong></p>
+          <span class="letter-postmark">PARA SIEMPRE<br>CON CARIÑO</span>
+        </article></div>
+    </section>
+
+    <section class="open-when section-shell" id="sobres">
+      <div class="section-index">05 <span>·</span> PEQUEÑOS BOTONES DE EMERGENCIA</div>
+      <div class="section-heading reveal"><div><p class="eyebrow">ABRE CUANDO…</p><h2>Un abrazo <em>a un clic.</em></h2></div><p>Elige el sobre que necesites hoy. Puedes cambiar estos mensajes por los tuyos.</p></div>
+      <div class="envelope-grid">
+        <button class="envelope reveal" type="button" data-message="Respira, amor. No tienes que resolverlo todo ahora. Confío en ti, estoy contigo y mañana también voy a elegirte."><span class="envelope-icon">✉</span><span class="envelope-label">ABRE CUANDO</span><strong>el día se ponga difícil</strong><span class="envelope-cta">ABRIR MI NOTA ↗</span></button>
+        <button class="envelope reveal" type="button" data-message="Cierra los ojos un segundo. Te mando un abrazo de esos que duran, una caricia en el pelo y un beso en la frente. Ya falta menos para vernos."><span class="envelope-icon">♡</span><span class="envelope-label">ABRE CUANDO</span><strong>me extrañes un poquito</strong><span class="envelope-cta">ABRIR MI NOTA ↗</span></button>
+        <button class="envelope reveal" type="button" data-message="Estoy orgulloso de ti. De tu cabeza, tu corazón y de cómo sigues adelante. Si hoy nadie te lo ha dicho: eres increíble y te amo muchísimo."><span class="envelope-icon">✳</span><span class="envelope-label">ABRE CUANDO</span><strong>necesites recordar lo increíble que eres</strong><span class="envelope-cta">ABRIR MI NOTA ↗</span></button>
+      </div>
+      <div class="note-reveal" id="note-reveal" aria-live="polite" hidden><span>UNA NOTITA MÍA PARA TI</span><p id="note-text"></p><button type="button" id="close-note" aria-label="Cerrar nota">×</button></div>
+    </section>
+
+    <section class="soundtrack" id="audio">
+      <div class="soundtrack-inner"><div class="section-index">06 <span>·</span> ESCUCHA ESTO CERQUITA</div><div class="soundtrack-copy"><p class="eyebrow light">NUESTRA BANDA SONORA</p><h2>Hay canciones<br>que <em>se parecen</em><br>a nosotros.</h2><p>Sube una canción especial como <code>media/nuestra-cancion.mp3</code>, o deja aquí un audio con tu voz.</p><div class="audio-player"><span class="audio-disc">♪</span><div><strong>Para escuchar pensando en nosotros</strong><small>UNA CANCIÓN · UN RECUERDO</small></div><audio controls preload="none"><source src="media/nuestra-cancion.mp3" type="audio/mpeg">Tu navegador no puede reproducir este audio.</audio></div><div class="audio-player voice-player"><span class="audio-disc">♥</span><div><strong>Un mensaje solo para ti</strong><small>GRABADO POR SANTIAGO</small></div><audio controls preload="none"><source src="media/mensaje.mp3" type="audio/mpeg">Tu navegador no puede reproducir este audio.</audio></div></div><div class="soundtrack-orbit" aria-hidden="true"><span>♫</span><i>♪</i><b>♥</b><div class="orbit-ring"></div><small>PLAY<br>OUR<br>SONG</small></div></div>
+    </section>
+
+    <section class="date-night section-shell" id="planes">
+      <div class="section-index">07 <span>·</span> ACTIVIDAD PARA DOS</div>
+      <div class="date-layout"><div class="date-copy reveal"><p class="eyebrow">CITA SORPRESA</p><h2>Hoy no hay que<br>decidir mucho.<br><em>Yo tengo un plan.</em></h2><p>Un botón, una idea y una cita para nosotros. Si no nos convence, sacamos otra.</p><button class="button button-dark" id="plan-button" type="button">Elegir nuestro plan <span>✳</span></button></div><div class="date-card reveal" aria-live="polite"><span class="date-card-number" id="plan-number">IDEA 001</span><span class="date-card-icon" id="plan-icon">☾</span><h3 id="plan-title">Noche de película</h3><p id="plan-description">Elige una peli mala, prepara algo rico y nos reímos de cada escena.</p><span class="date-card-tag" id="plan-tag">EN CASA · SIN PRISA</span><span class="date-card-stamp">S & ♥</span></div></div>
+      <p class="date-footnote">Hecho para dos. Válido cuando quieras. <span>— S.</span></p>
+    </section>
+
+    <section class="places section-shell" id="lugares">
+      <div class="section-index">08 <span>·</span> UN MAPA CON UN SOLO DESTINO</div>
+      <div class="section-heading reveal"><div><p class="eyebrow">COORDENADAS FAVORITAS</p><h2>Donde sea,<br><em>si vamos juntos.</em></h2></div><p>Agrega el nombre y la dirección del lugar que siempre te devuelve a un recuerdo feliz.</p></div>
+      <div class="map-layout"><div class="map-art" aria-hidden="true"><span class="map-road road-one"></span><span class="map-road road-two"></span><span class="map-river"></span><span class="map-pin">♥</span><span class="map-label">AQUÍ PASÓ ALGO BONITO</span><span class="map-coordinates">00°00'00.0"N<br>00°00'00.0"W</span><span class="map-mapword">NUESTRO<br>MAPA</span></div><div class="place-card reveal"><span class="place-number">LUGAR Nº 01</span><h3>Donde nos dimos<br>nuestro primer beso</h3><p>Completa con el nombre del sitio y su ubicación. Luego agrega tu enlace de Google Maps en <code>script.js</code>.</p><a class="text-link" id="map-link" href="https://maps.google.com" target="_blank" rel="noreferrer">Abrir en el mapa <span>↗</span></a><div class="place-coords">LAT. &nbsp; LONG. &nbsp; RECUERDO INFINITO</div></div></div>
+    </section>
+
+    <section class="together section-shell" id="juntos">
+      <div class="section-index">09 <span>·</span> UNA FOTO, MIL VERSIONES DE NOSOTROS</div>
+      <div class="together-frame reveal"><div class="together-image" role="img" aria-label="Agrega aquí una foto de ustedes en media/juntos.jpg"></div><div class="together-caption"><span>ARCHIVO Nº 001</span><p>La vida me gusta más<br><em>cuando estás en el encuadre.</em></p><span>PARA MI PERSONA FAVORITA · SANTIAGO</span></div><span class="frame-scribble">♥</span></div>
+    </section>
+
+    <section class="finale" id="final">
+      <div class="finale-sparkles" aria-hidden="true">✳　 ·　 ✦　 ·　 ✳</div>
+      <div class="finale-inner"><p class="eyebrow light">PENSASTE QUE EL REGALO HABÍA TERMINADO…</p><h2>Pero todavía<br>tengo algo <em>para ti.</em></h2><p class="finale-intro">Tres preguntas sobre nosotros.<br>Una última sorpresa al final.</p><button id="surprise-button" class="button button-light" type="button">Descubrir la sorpresa <span>↘</span></button>
+        <div class="quiz" id="quiz" hidden><p class="quiz-progress" id="quiz-progress">RECUERDO 01 <span>·</span> 03</p><div class="quiz-progressbar"><span id="quiz-progressbar"></span></div><h3 id="quiz-question">¿Dónde fue nuestro primer beso?</h3><div class="quiz-answers" id="quiz-answers"></div><p class="quiz-feedback" id="quiz-feedback" aria-live="polite"></p></div>
+        <div class="win" id="win" hidden><span class="win-spark">✳</span><p class="eyebrow">MISIÓN CUMPLIDA, AMOR</p><h2>¡Lo has conseguido!</h2><p class="win-copy">Y ahora viene la parte que más me gusta: compartir tiempo contigo.</p><article class="ticket"><div class="ticket-top"><span>VALE DE AMOR</span><span>✳ Nº 001</span></div><div class="ticket-main"><p>UN PLAN PARA DOS</p><h3>Una cena</h3><p>En el restaurante que tú elijas.</p></div><div class="ticket-divider"><span>♥</span></div><div class="ticket-bottom"><div><span>INVITA</span><strong>SANTIAGO</strong></div><div><span>FECHA</span><strong>13 · 11 · 2026</strong></div></div><p class="ticket-birthday">¡Feliz cumpleaños, mi amor!<br><em>Te amo muchísimo.</em> ♥</p><span class="ticket-stamp">CANJEABLE<br>POR UN BESO</span></article><p class="after-ticket">P. D. Esta cita no caduca. Tú eliges el día. ♥</p></div>
+      </div><div class="finale-footer"><span>FIN DE ESTA PÁGINA</span><span>EL PRINCIPIO DE MUCHAS MÁS COSAS</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#inicio"><span class="brand-mark">s<span>♥</span></span><span>ARCHIVO<br><b>DE NOSOTROS</b></span></a><span>DISEÑADO Y CODIFICADO CON AMOR POR SANTIAGO</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Foto ampliada"><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Cerrar foto">×</button><img id="lightbox-image" alt="Recuerdo de ustedes"><p id="lightbox-caption"></p></dialog>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Medios del regalo — todos están conectados en la página.
+
+Portada y fotos destacadas: portada.jpg, polaroid.jpg, juntos.jpg
+Fotos en la galería: foto-01.jpg a foto-30.jpg y foto-31.webp
+Videos: video-01.mp4, video-02.mp4, video-03.mp4
+Audio: nuestra-cancion.mp3, mensaje.mp3
