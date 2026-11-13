@@ -157,7 +157,7 @@ $('#plan-button').addEventListener('click', () => {
 });
 
 // Pon aquí un enlace específico de Google Maps para el lugar de su primer beso.
-const GOOGLE_MAPS_LINK = 'https://maps.google.com/?q=TU+LUGAR+ESPECIAL';
+const GOOGLE_MAPS_LINK = 'https://www.google.com/maps/place/Rafaello/@-0.3130166,-78.4729286,2500a,75y,307.8h,92.55t/data=!3m7!1e1!3m5!1sTWfbIRQt4GYnEZaVMxFdGg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-2.5471271635060333%26panoid%3DTWfbIRQt4GYnEZaVMxFdGg%26yaw%3D307.80225803679014!7i16384!8i8192!4m6!3m5!1s0x91d5bd35720d512f:0x4a7d0eb2bcc14f6e!8m2!3d-0.3128919!4d-78.4730203!16s%2Fg%2F11vt7vqb_k?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D';
 $('#map-link').href = GOOGLE_MAPS_LINK;
 
 // La sorpresa final: tres preguntas de recuerdos.
